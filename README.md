@@ -9,6 +9,6 @@ The repository includes the following **Jupyter Notebook** scripts coded with **
 * single_project_qual_eval.ipynb
 * cross_project_qual_eval.ipynb
 
-Single project evaluation uses all the reports in a single project to predict on the issue reports on the same project, while cross project evaluation uses 1 out of the 10 projects in the dataset for testing and the remaining for training. 
+Single project evaluation uses all the reports in a single project to predict on the issue reports on the same project, while cross project evaluation uses 1 out of n projects in the dataset for testing and the remaining for training. 
 
 Before running any script, the issue reports should have been downloaded and saved as a csv file. If you have a stop-word list, assign the list to the variable "stop_word_list". 
